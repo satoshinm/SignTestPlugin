@@ -1,5 +1,5 @@
 
-package com.dinnerbone.bukkit.sample;
+package io.github.satoshinm.SignTestPlugin;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;

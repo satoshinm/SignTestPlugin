@@ -1,5 +1,5 @@
 
-package com.dinnerbone.bukkit.sample;
+package io.github.satoshinm.SignTestPlugin;
 
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.PluginManager;
@@ -10,7 +10,7 @@ import org.bukkit.plugin.java.JavaPlugin;
  *
  * @author Dinnerbone
  */
-public class SamplePlugin extends JavaPlugin {
+public class SignTestPlugin extends JavaPlugin {
     private final SampleBlockListener blockListener = new SampleBlockListener();
 
     @Override
