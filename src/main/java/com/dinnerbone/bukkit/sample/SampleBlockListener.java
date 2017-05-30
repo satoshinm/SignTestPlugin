@@ -25,13 +25,4 @@ public class SampleBlockListener implements Listener {
             }
         }
     }
-
-    @EventHandler
-    public void onBlockCanBuild(BlockCanBuildEvent event) {
-        Material mat = event.getMaterial();
-
-        if (mat.equals(Material.CACTUS)) {
-            event.setBuildable(true);
-        }
-    }
 }
