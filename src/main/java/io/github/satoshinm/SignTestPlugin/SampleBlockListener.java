@@ -35,7 +35,12 @@ public class SampleBlockListener implements Listener {
 
             MaterialData materialData = block.getState().getData();
 
-            System.out.println("materialData = "+materialData);
+            try {
+                System.out.println("materialData = " + materialData);
+            } catch (Exception ex) {
+                System.out.println("materialData.toString() failed: " + ex);
+                ex.printStackTrace();
+            }
             if (materialData instanceof Sign) {
                 Sign sign = (Sign) materialData;
 
