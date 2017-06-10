@@ -26,7 +26,7 @@ public class SignTestPlugin extends JavaPlugin {
         pm.registerEvents(blockListener, this);
 
         // Register our commands
-        getCommand("pos").setExecutor(new SamplePosCommand());
+        getCommand("signtest").setExecutor(new SignTestCommand());
 
         // EXAMPLE: Custom code, here we just output some info so we can check all is well
         PluginDescriptionFile pdfFile = this.getDescription();
